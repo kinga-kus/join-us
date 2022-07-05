@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: 'Finlandica', sans-serif;
+    background-image: url(https://img.freepik.com/darmowe-wektory/recznie-malowane-akwarela-pastelowe-niebo-w-tle_23-2148902771.jpg?w=2000);
+    background-size: cover;
+    height: 100%;
+    color: #161616;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 35vh;
+    font-weight: 200;
+}
+
+p {
+    margin: 0;
+    font-size: 3vh;
+}
+
+.form {
+    border: none;
+    border-bottom: 2px solid rgb(46, 43, 43);
+    background: transparent;
+    font-size: 3rem;
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    width: 900px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color:rgb(255, 255, 255, 0.8);
+}
+
+button {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 1.8em;
+    background-color:rgba(255, 255, 255, 0.5);
+    opacity: 0.7;
+}
